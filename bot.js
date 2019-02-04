@@ -7,11 +7,6 @@ client.on('ready', () => {
     console.log('Devloper : Loss/ Saud');
 });
 
-
-Paste2
-Create Paste
-Followup Paste
-QR
 client.on("message", (message) => {
    if (message.content.startsWith("-new")) {     
         const reason = message.content.split(" ").slice(1).join(" ");     
@@ -66,10 +61,6 @@ client.on("message", (message) => {
     }
  
 });
-
-
-© 2006 - 2019 Paste2.org.
-Follow paste2.org on Twitter
 
 
 
